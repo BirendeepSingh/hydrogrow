@@ -214,9 +214,9 @@ export default function ContactPage() {
                       <p className="text-gray-600">
                         HydroGrow Headquarters
                         <br />
-                        123 Green Street, Andheri East
+                        125-A, Green Avenue
                         <br />
-                        Mumbai, Maharashtra 400069
+                        Amritsar, Punjab 143001
                       </p>
                     </div>
                   </div>

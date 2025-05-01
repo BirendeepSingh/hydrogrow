@@ -15,7 +15,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="relative h-10 w-10 mr-2">
-              <Image src="/placeholder.svg?height=40&width=40" alt="HydroGrow Logo" fill className="object-contain" />
+              <Image src="/placeholder-logo.png?height=40&width=40" alt="HydroGrow Logo" fill className="object-contain" />
             </div>
             <span className="text-xl font-bold text-green-600">HydroGrow</span>
           </Link>

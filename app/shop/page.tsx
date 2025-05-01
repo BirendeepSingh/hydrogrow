@@ -11,7 +11,7 @@ const products = [
     name: "Fresh Basil",
     category: "Herbs",
     price: 199,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/freshbasil.webp?height=400&width=600",
     description: "Aromatic basil grown in our hydroponic facility. Perfect for Italian dishes and salads.",
   },
   {
@@ -19,7 +19,7 @@ const products = [
     name: "Cherry Tomatoes",
     category: "Vegetables",
     price: 249,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cherrytom.jpeg?height=400&width=600",
     description: "Sweet and juicy cherry tomatoes. Great for salads or as a healthy snack.",
   },
   {
@@ -27,7 +27,7 @@ const products = [
     name: "Baby Spinach",
     category: "Leafy Greens",
     price: 179,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/babyspin.webp?height=400&width=600",
     description: "Tender baby spinach leaves. Rich in iron and vitamins.",
   },
   {
@@ -35,7 +35,7 @@ const products = [
     name: "Red Bell Pepper",
     category: "Vegetables",
     price: 129,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/redbell.webp?height=400&width=600",
     description: "Crisp and sweet red bell peppers. Excellent source of vitamin C.",
   },
   {
@@ -43,7 +43,7 @@ const products = [
     name: "Mint",
     category: "Herbs",
     price: 149,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/mint.jpg?height=400&width=600",
     description: "Fresh mint leaves. Perfect for teas, cocktails, and desserts.",
   },
   {
@@ -51,7 +51,7 @@ const products = [
     name: "Kale",
     category: "Leafy Greens",
     price: 199,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/kale.webp?height=400&width=600",
     description: "Nutrient-dense kale. A superfood packed with vitamins and minerals.",
   },
   {
@@ -59,7 +59,7 @@ const products = [
     name: "Cilantro",
     category: "Herbs",
     price: 129,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cilantro.jpg?height=400&width=600",
     description: "Fresh cilantro. Essential for Mexican and Asian cuisines.",
   },
   {
@@ -67,16 +67,8 @@ const products = [
     name: "Cucumber",
     category: "Vegetables",
     price: 99,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cucumber.webp?height=400&width=600",
     description: "Crisp hydroponic cucumbers. Low in calories and high in hydration.",
-  },
-  {
-    id: 9,
-    name: "Arugula",
-    category: "Leafy Greens",
-    price: 169,
-    image: "/placeholder.svg?height=400&width=600",
-    description: "Peppery arugula leaves. Adds a distinctive flavor to salads and sandwiches.",
   },
 ]
 

@@ -14,7 +14,7 @@ export default function Home() {
         <section className="relative h-[80vh] flex items-center">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/placeholder.svg?height=1080&width=1920"
+              src="/heroimg.jpeg?height=1080&width=1920"
               alt="Fresh hydroponic vegetables"
               fill
               className="object-cover brightness-[0.85]"
@@ -93,9 +93,30 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-center mb-12">Featured Products</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { name: "Fresh Basil", price: "₹199", image: "/placeholder.svg?height=400&width=600" },
-                { name: "Cherry Tomatoes", price: "₹249", image: "/placeholder.svg?height=400&width=600" },
-                { name: "Baby Spinach", price: "₹179", image: "/placeholder.svg?height=400&width=600" },
+                {
+                  id: 1,
+                  name: "Fresh Basil",
+                  category: "Herbs",
+                  price: 199,
+                  image: "/freshbasil.webp?height=400&width=600",
+                  description: "Aromatic basil grown in our hydroponic facility. Perfect for Italian dishes and salads.",
+                },
+                {
+                  id: 2,
+                  name: "Cherry Tomatoes",
+                  category: "Vegetables",
+                  price: 249,
+                  image: "/cherrytom.jpeg?height=400&width=600",
+                  description: "Sweet and juicy cherry tomatoes. Great for salads or as a healthy snack.",
+                },
+                {
+                  id: 3,
+                  name: "Baby Spinach",
+                  category: "Leafy Greens",
+                  price: 179,
+                  image: "/babyspin.webp?height=400&width=600",
+                  description: "Tender baby spinach leaves. Rich in iron and vitamins.",
+                },
               ].map((product, index) => (
                 <div
                   key={index}
